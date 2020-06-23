@@ -84,3 +84,9 @@ Metrics/BlockLength:
 # Offense count: 53
 Metrics/AbcSize:
   Max: 109
+
+Style/MixinUsage:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
