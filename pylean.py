@@ -16,7 +16,7 @@ d1 = os.path.expanduser("~/GitHub/public/Pylean")
 if os.path.exists(d1):
     python_input = open(os.path.expanduser("~/GitHub/public/Pylean/input/hyakunin.txt"))
 else:
-    print("Don't forget, Install dein plugin manager github repo takkii/ruby-dictionary3.")
+    print("Don't forget, pylean folder path.")
 
 index_py = list(python_input.readlines())
 pypy = pd.Series(index_py)
