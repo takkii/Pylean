@@ -110,28 +110,12 @@ python ./sklearn_dic.py
 #### ※ 重複していないことが数字でわかります。
 
 ```markdown
-Coronavirus Tracker
+cd analyze
 
-╔══════╤════════════╤══════════════╤═════════════╤══════════════╤══════════════╤═══════════╤═══════════╤══════════╤════════════════╗
-║ Rank │ Country │ Total Cases │ New Cases ▲ │ Total Deaths │ New Deaths ▲ │ Recovered │ Active │ Critical │ Cases / 1M pop ║
-╟──────┼────────────┼──────────────┼─────────────┼──────────────┼──────────────┼───────────┼───────────┼──────────┼────────────────╢
-║ 1 │ Japan (JP) │ 17,916 │ │ 953 │ │ 16,133 │ 830 │ 59 │ 142 ║
-╟──────┼────────────┼──────────────┼─────────────┼──────────────┼──────────────┼───────────┼───────────┼──────────┼────────────────╢
-║ │ World │ 9,194,445 │ 13,570 ▲ │ 474,502 │ 1,018 ▲ │ 4,735,778 │ 3,984,165 │ 57,913 │ 1,179.68 ║
-╚══════╧════════════╧══════════════╧═════════════╧══════════════╧══════════════╧═══════════╧═══════════╧══════════╧════════════════╝
-
-Stay safe. Stay inside.
-Code: https://github.com/sagarkarira/coronavirus-tracker-cli
-Twitter: https://twitter.com/ekrysis
-
-Last Updated on: 23-Jun-2020 07:06 UTC
-
-US STATES API: https://corona-stats.online/states/us
-HELP: https://corona-stats.online/help
-SPONSORED BY: ZEIT NOW
+python3 corona_ja_result.py
 ```
 
-#### ※ CSS を非表示にしました。
+#### ※ コロナウイルス対策の日本で影響範囲がわかります。
 
 ![corona_ja_result_image](https://github.com/takkii/totolot/blob/master/images/corona_ja_result.png)
 
