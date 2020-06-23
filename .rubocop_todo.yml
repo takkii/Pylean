@@ -11,13 +11,13 @@
 # Configuration parameters: Width, IgnoredPatterns.
 Layout/IndentationWidth:
   Exclude:
-    - 'rblean_py.rb'
+    - "rblean_py.rb"
 
 # Offense count: 5
 # Cop supports --auto-correct.
 Layout/SpaceAfterComma:
   Exclude:
-    - 'rblean_py.rb'
+    - "rblean_py.rb"
 
 # Offense count: 1
 # Cop supports --auto-correct.
@@ -25,38 +25,38 @@ Layout/SpaceAfterComma:
 # SupportedStyles: final_newline, final_blank_line
 Layout/TrailingEmptyLines:
   Exclude:
-    - 'rblean_py.rb'
+    - "rblean_py.rb"
 
 # Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: IgnoreEmptyBlocks, AllowUnusedKeywordArguments.
 Lint/UnusedBlockArgument:
   Exclude:
-    - 'rblean_py.rb'
+    - "rblean_py.rb"
 
 # Offense count: 3
 Lint/UselessAssignment:
   Exclude:
-    - 'rblean_py.rb'
+    - "rblean_py.rb"
 
 # Offense count: 1
 Style/Documentation:
   Exclude:
-    - 'spec/**/*'
-    - 'test/**/*'
-    - 'rblean_py.rb'
+    - "spec/**/*"
+    - "test/**/*"
+    - "rblean_py.rb"
 
 # Offense count: 2
 Style/MixinUsage:
   Exclude:
-    - 'rblean.rb'
-    - 'rblean_py.rb'
+    - "rblean.rb"
+    - "rblean_py.rb"
 
 # Offense count: 1
 # Cop supports --auto-correct.
 Style/RedundantParentheses:
   Exclude:
-    - 'rblean_py.rb'
+    - "rblean_py.rb"
 
 # Offense count: 6
 # Cop supports --auto-correct.
@@ -64,4 +64,43 @@ Style/RedundantParentheses:
 # SupportedStyles: single_quotes, double_quotes
 Style/StringLiterals:
   Exclude:
-    - 'rblean_py.rb'
+    - "rblean_py.rb"
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: false
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: false
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: false
+
+Lint/MixedRegexpCaptureTypes:
+  Enabled: false
+
+Lint/RaiseException:
+  Enabled: false
+
+Lint/StructNewOverride:
+  Enabled: false
+
+Style/ExponentialNotation:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: false
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Style/HashTransformValues:
+  Enabled: false
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: false
+
+Style/RedundantRegexpEscape:
+  Enabled: false
+
+Style/SlicingWithRange:
+  Enabled: false
