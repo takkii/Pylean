@@ -4,15 +4,18 @@ require 'pycall/import'
 include PyCall::Import
 
 sys = PyCall.import_module('sys')
+random = PyCall.import_module('random')
+os = PyCall.import_module('os')
 
-puts sys.stdout.encoding
-puts sys.version
+class Dice
+    def saiko
+      pyimport :random
+      saikoro = ["⚀","⚁","⚂","⚃","⚄","⚅"]
+      (0..5).each do |x|
+      print ' ' + (random.choice(saikoro))
+      end
+      puts ''
+    end
+end
 
-pyimport :datetime
-puts datetime.date.today
-
-pyimport :datetime
-puts datetime.datetime.now.strftime('%Y/%m/%d %H:%M:%S')
-
-pyimport :calendar
-puts calendar.month(2017, 12)
+Dice.new.saiko
