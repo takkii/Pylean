@@ -3,10 +3,6 @@
 require 'pycall/import'
 include PyCall::Import
 
-sys = PyCall.import_module('sys')
-random = PyCall.import_module('random')
-os = PyCall.import_module('os')
-
 class Dice
     def saiko
       pyimport :random
