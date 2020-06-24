@@ -1,17 +1,18 @@
 # frozen_string_literal: true
 
 require 'pycall/import'
-include PyCall::Import
 
+# saikoro 5 num random output.
 class Dice
-    def saiko
-      pyimport :random
-      saikoro = ["⚀","⚁","⚂","⚃","⚄","⚅"]
-      (0..5).each do |x|
-      print ' ' + (random.choice(saikoro))
-      end
-      puts ''
+  include PyCall::Import
+  def saiko
+    pyimport :random
+    saikoro = ['⚀', '⚁', '⚂', '⚃', '⚄', '⚅']
+    (0..5).each do |_x|
+      print ' ' + random.choice(saikoro)
     end
+    puts ''
+  end
 end
 
 Dice.new.saiko
