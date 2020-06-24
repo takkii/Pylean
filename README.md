@@ -2,13 +2,23 @@
 
 ### Pylean はデータ分析用のプロジェクトです
 
+_将来的には自作のプロジェクトに機械学習などを組み込みます_
+
+##### 「 環境構築 」
+
 ```markdown
-「 環境構築 」
 pip3 install -r requirements.txt
 
-「 仕様 」
+env PYTHON_CONFIGURE_OPTS='--enable-shared' pyenv install 3.8.3
+bundle install
+```
+
+#### 「 仕様 」
+
+```markdown
 ・ 機械学習などを Ruby/Rails/TS などプロジェクトに組み込むための倉庫にします。
 ・ analyze フォルダは totolot から移動しました。
+・ lean_rb フォルダは ruby で pycall を使い、データ分析をします。
 ```
 
 ### pylearn.py
@@ -37,4 +47,6 @@ pip3 install -r requirements.txt
 ⚂ ⚂ ⚃ ⚁ ⚀ ⚀
 ```
 
-_ランダムにさいころを出力します_
+_ランダムにサイコロを出力します_
+
+ライセンスはまだ付与しません。まだ、一般的に使用する段階ではないためです。
