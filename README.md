@@ -28,3 +28,11 @@ pip3 install -r requirements.txt
 
 [100 rows x 780 columns]
 ```
+
+### rblean_py.rb
+
+```markdown
+⚂ ⚂ ⚃ ⚁ ⚀ ⚀
+```
+
+_ランダムにさいころを出力します_
