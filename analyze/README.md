@@ -58,6 +58,28 @@ CompletedProcess(args=['python', '-m', 'pip', 'install', 'beautifulsoup4'], retu
 ### ~~ 実行 ~~
 
 ```markdown
+Coronavirus Tracker
+
+╔══════╤════════════╤══════════════╤═════════════╤══════════════╤══════════════╤════════════╤═══════════╤══════════╤════════════════╗
+║ Rank │ Country    │ Total Cases  │ New Cases ▲ │ Total Deaths │ New Deaths ▲ │ Recovered  │ Active    │ Critical │ Cases / 1M pop ║
+╟──────┼────────────┼──────────────┼─────────────┼──────────────┼──────────────┼────────────┼───────────┼──────────┼────────────────╢
+║ 1    │ Japan (JP) │       41,129 │             │        1,022 │              │     28,028 │    12,079 │      104 │            325 ║
+╟──────┼────────────┼──────────────┼─────────────┼──────────────┼──────────────┼────────────┼───────────┼──────────┼────────────────╢
+║      │ World      │   18,979,846 │    14,367 ▲ │      711,277 │        990 ▲ │ 11,966,116 │ 6,302,453 │   65,471 │       2,435.19 ║
+╚══════╧════════════╧══════════════╧═════════════╧══════════════╧══════════════╧════════════╧═══════════╧══════════╧════════════════╝
+
+Code: https://github.com/sagarkarira/coronavirus-tracker-cli
+Twitter: https://twitter.com/ekrysis
+
+Last Updated on: 06-Aug-2020 06:08 UTC
+
+US STATES API: https://corona-stats.online/states/us
+HELP: https://corona-stats.online/help
+SPONSORED BY: ZEIT NOW
+Checkout fun new side project I am working on: https://messagink.com/story/5eefb79b77193090dd29d3ce/global-response-to-coronavirus
+```
+
+```markdown
 python ./ruby-dic3_ana.py
 ```
 
