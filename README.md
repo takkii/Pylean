@@ -9,7 +9,7 @@ _将来的には自作のプロジェクトに機械学習などを組み込み�
 ```markdown
 pip3 install -r requirements.txt
 
-env PYTHON_CONFIGURE_OPTS='--enable-shared' pyenv install 3.8.3
+env PYTHON_CONFIGURE_OPTS='--enable-shared' pyenv install 3.8.5
 bundle install
 ```
 
