@@ -50,3 +50,12 @@ bundle install
 _ランダムにサイコロを出力します_
 
 ライセンスはまだ付与しません。まだ、一般的に使用する段階ではないためです。
+
+### pip3 upgrader
+
+```markdown
+Requirement already up-to-date: pip in c:\python38\lib\site-packages (20.2.2)
+CompletedProcess(args=['python', '-m', 'pip', 'install', '--upgrade', 'pip'], returncode=0, stderr='')
+3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)]
+sys.version_info(major=3, minor=8, micro=5, releaselevel='final', serial=0)
+```
