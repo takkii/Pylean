@@ -49,9 +49,9 @@ bundle install
 
 _ランダムにサイコロを出力します_
 
-ライセンスはまだ付与しません。まだ、一般的に使用する段階ではないためです。
+### version.py
 
-### pip3 upgrader
+_pip3をアップグレードします_
 
 ```markdown
 Requirement already up-to-date: pip in c:\python38\lib\site-packages (20.2.2)
