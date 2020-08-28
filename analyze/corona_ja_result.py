@@ -18,5 +18,4 @@ class corona_ja_result(threading.Thread):
       print(corona_ja_result)
 
 thread = corona_ja_result()
-thread.start()
-thread.join()
+thread.run()
