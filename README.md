@@ -51,7 +51,7 @@ _ランダムにサイコロを出力します_
 
 ### version.py
 
-_pip3をアップグレードします_
+_pip3やsetuptoolsをアップグレードします_
 
 ```markdown
 Requirement already up-to-date: pip in c:\python38\lib\site-packages (20.2.2)
