@@ -7,12 +7,14 @@ class InstallerClass:
     pan_win = ['python', '-m', 'pip', 'install', 'pandas']
     req_win = ['python', '-m', 'pip', 'install', 'requests-html']
     bs4_win = ['python', '-m', 'pip', 'install', 'beautifulsoup4']
+    mat_win = ['python', '-m', 'pip', 'install', 'matplotlib']
 
     sci = ['python3', '-m', 'pip', 'install', 'scikit-learn']
     nump = ['python3', '-m', 'pip', 'install', 'numpy']
     pan = ['python3', '-m', 'pip', 'install', 'pandas']
     req = ['python3', '-m', 'pip', 'install', 'requests-html']
     bs4 = ['python3', '-m', 'pip', 'install', 'beautifulsoup4']
+    mat = ['python3', '-m', 'pip', 'install', 'matplotlib']
 
     def sci_win_method(self):
         try:
@@ -44,6 +46,13 @@ class InstallerClass:
             print(ret_bs4_win)
         except Exception:
             traceback.print_exc()
+    def mat_win_method(self):
+        try:
+            ret_mat_win = subprocess.run(self.mat_win, encoding='utf-8', stderr=subprocess.PIPE)
+            print(ret_mat_win)
+        except Exception:
+            traceback.print_exc()
+
 
     def sci_method(self):
         try:
@@ -75,6 +84,12 @@ class InstallerClass:
             print(ret_bs4)
         except Exception:
             traceback.print_exc()
+    def mat_method(self):
+        try:
+            ret_mat = subprocess.run(self.mat, encoding='utf-8', stderr=subprocess.PIPE)
+            print(ret_mat)
+        except Exception:
+            traceback.print_exc()
 
 if sys.version_info[0] == 2:
   print("This installer is Python2 not supported.")
@@ -88,6 +103,7 @@ elif sys.version_info[0] == 3:
        InstClass.pan_win_method()
        InstClass.req_win_method()
        InstClass.bs4_win_method()
+       InstClass.mat_win_method()
 
     elif pf == 'Darwin':
        InstClass = InstallerClass()
@@ -96,6 +112,7 @@ elif sys.version_info[0] == 3:
        InstClass.pan_method()
        InstClass.req_method()
        InstClass.bs4_method()
+       InstClass.mat_method()
 
     elif pf == 'Linux':
        InstClass = InstallerClass()
@@ -104,6 +121,7 @@ elif sys.version_info[0] == 3:
        InstClass.pan_method()
        InstClass.req_method()
        InstClass.bs4_method()
+       InstClass.mat_method()
 
     else:
        print("Installer does not support OS other than Windows, MacOS and Linux kernel.")

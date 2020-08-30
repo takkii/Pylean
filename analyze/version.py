@@ -9,7 +9,6 @@ import traceback
 class InstallerClass(threading.Thread):
     py_setuptool = ['python', '-m', 'pip', 'install', '-U', 'pip', 'setuptools']
     py_update = ['python', '-m', 'pip', 'install', '--upgrade', 'pip']
-    py_mat = ['python', '-m', 'pip', 'install', 'matplotlib']
 
     def __init__(self):
         threading.Thread.__init__(self)
@@ -21,7 +20,6 @@ class InstallerClass(threading.Thread):
             py_mat_win= subprocess.run(self.py_mat, encoding='utf-8', stderr=subprocess.PIPE)
             print(py_update_win)
             print(py_setup_win)
-            print(py_mat_win)
             print(sys.version)
 
         except Exception:
