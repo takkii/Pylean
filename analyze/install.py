@@ -1,5 +1,9 @@
-import traceback, subprocess ,sys
-import importlib, site, platform
+import importlib
+import platform
+import site
+import subprocess
+import sys
+import traceback
 
 class InstallerClass:
     sci_win = ['python', '-m', 'pip', 'install', 'scikit-learn']
