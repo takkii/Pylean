@@ -9,7 +9,7 @@
 ```markdown
 pip3 install -r requirements.txt
 
-env PYTHON_CONFIGURE_OPTS='--enable-shared' pyenv install 3.8.5
+env PYTHON_CONFIGURE_OPTS='--enable-shared' pyenv install 3.8.6
 bundle install
 ```
 
