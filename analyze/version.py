@@ -1,8 +1,7 @@
 import sys
-import sys
 import threading
 import traceback
-
+import subprocess
 
 class InstallerClass(threading.Thread):
     py_setuptool = ['python', '-m', 'pip', 'install', '-U', 'pip', 'setuptools']
