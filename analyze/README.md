@@ -269,8 +269,6 @@ Designed by NyaSoCom
 
 ### RSS アンテナを python で文字列表示しました。
 
-analayzeフォルダ内で百人一首を検索できるようにしました。
-
 ```markdown
 python hyakunin_load.py ""
 
@@ -282,3 +280,5 @@ python hyakunin_load.py 花の色は
 
 ※ ヒットしたテキストを1行表示します
 ```
+
+### analayzeフォルダ内で百人一首を検索できるようにしました。
