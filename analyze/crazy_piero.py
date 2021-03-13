@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 import random
-import os
-import sys
 
 
 class Dice:
@@ -13,10 +11,10 @@ class Dice:
 eyes = Dice().saikoro
 ice = Dice().num
 
-if(ice == 0):
+if (ice == 0):
     sin = ' '.join([random.choice(eyes) for i in range(5)])
     print("Dice shuffle 5 times [心] ... " + sin)
-elif(ice == 1):
+elif (ice == 1):
     gi = ' '.join([random.choice(eyes) for i in range(5)])
     print("Dice shuffle 5 times [義] ... " + gi)
 else:

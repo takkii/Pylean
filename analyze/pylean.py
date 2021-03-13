@@ -1,10 +1,8 @@
-import os
-import re
-import traceback
-import pandas as pd
 from os.path import expanduser
-from sklearn import svm, metrics
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+
+import os
+import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
