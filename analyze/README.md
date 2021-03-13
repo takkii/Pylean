@@ -7,6 +7,8 @@
 #### ~~ 初期設定 ~~
 
 ```markdown
+環境 : pyenv, anaconda3-2020.11
+
 wget https://raw.githubusercontent.com/takkii/totolot/master/analyze/install.py
 
 python ./install.py
