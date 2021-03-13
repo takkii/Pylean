@@ -395,6 +395,4 @@ CompletedProcess(args=['python', '-m', 'pip', 'install', '-U', 'pip', 'setuptool
 sys.version_info(major=3, minor=8, micro=5, releaselevel='final', serial=0)
 ```
 
-### version.py
-
-_pip3やsetuptoolsをアップグレードします_
+### pip3やsetuptoolsをアップグレードできます。
