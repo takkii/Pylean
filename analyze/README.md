@@ -384,3 +384,17 @@ python hyakunin_load.py 花の色は
 ```
 
 ### 百人一首を検索できるようにしました。
+
+```markdown
+Requirement already up-to-date: pip in c:\python38\lib\site-packages (20.2.2)
+CompletedProcess(args=['python', '-m', 'pip', 'install', '--upgrade', 'pip'], returncode=0, stderr='')
+Requirement already up-to-date: pip in c:\python38\lib\site-packages (20.2.2)
+Requirement already up-to-date: setuptools in c:\python38\lib\site-packages (49.6.0)
+CompletedProcess(args=['python', '-m', 'pip', 'install', '-U', 'pip', 'setuptools'], returncode=0, stderr='')
+3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)]
+sys.version_info(major=3, minor=8, micro=5, releaselevel='final', serial=0)
+```
+
+### version.py
+
+_pip3やsetuptoolsをアップグレードします_
