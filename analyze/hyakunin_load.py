@@ -10,4 +10,5 @@ for line in data:
     match_word = arg_sys[1]
     if line.find(match_word) < 0:
         continue
-    print(line[:-1])
+    output = line[:-1]
+    print(output)
