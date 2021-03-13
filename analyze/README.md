@@ -269,11 +269,7 @@ Designed by NyaSoCom
 
 ### RSS アンテナを python で文字列表示しました。
 
-```markdown
-ちはやぶる 神代もきかず 竜田川, からくれなゐに 水くくるとは, ちはやふるかみよもきかすたつたかは, からくれなゐにみつくくるとは, 在原業平朝臣
-```
-
-_analayzeフォルダ内で百人一首を検索できるようにしました。_
+analayzeフォルダ内で百人一首を検索できるようにしました。
 
 ```markdown
 python hyakunin_load.py ""
