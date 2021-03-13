@@ -7,9 +7,12 @@
 ##### 「 環境構築 」
 
 ```markdown
+環境構築、基本。
+pyenv, anaconda3-2020.11
 pip3 install -r requirements.txt
 
-env PYTHON_CONFIGURE_OPTS='--enable-shared' pyenv install 3.8.6
+lean_rbフォルダ内環境構築。
+env PYTHON_CONFIGURE_OPTS='--enable-shared' pyenv install 3.8.8
 bundle install
 ```
 
