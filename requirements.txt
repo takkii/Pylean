@@ -7,3 +7,4 @@ pandas
 pillow
 requests-html
 beautifulsoup4
+python-language-server
