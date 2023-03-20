@@ -1,5 +1,7 @@
 import os
 from os.path import expanduser
+import warnings
+warnings.simplefilter('ignore', FutureWarning)
 
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -9,10 +11,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 home = expanduser("~")
 
-d1 = os.path.expanduser("~/GitHub/public/Pylean")
+d1 = os.path.expanduser("~/GitHub/Pylean")
 
 if os.path.exists(d1):
-    python_input = open(os.path.expanduser("~/GitHub/public/Pylean/input/hyakunin.txt"))
+    python_input = open(os.path.expanduser("~/GitHub/Pylean/input/hyakunin.txt"),'r',encoding="utf-8_sig")
 else:
     print("Don't forget, pylean folder path.")
 
